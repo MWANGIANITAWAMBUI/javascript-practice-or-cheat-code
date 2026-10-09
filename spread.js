@@ -16,7 +16,8 @@ console.log(original);*/
 }
 
 sumAll(1, 2, 3);
-sumAll(5, 10);*/
+sumAll(5, 10);
+*/
 
 
 function sumAll(...numbers) {
