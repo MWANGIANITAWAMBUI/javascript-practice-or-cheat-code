@@ -1,0 +1,23 @@
+{
+  "name": "javascript-practice",
+  "version": "1.0.0",
+  "description": "A public collection of small, hands-written JavaScript exercises; built while going back to fundamentals after realizing I'd started leaning on AI a bit too much for day-to-day coding.",
+  "main": "callbacks.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MWANGIANITAWAMBUI/javascript-practice-or-cheat-code.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MWANGIANITAWAMBUI/javascript-practice-or-cheat-code/issues"
+  },
+  "homepage": "https://github.com/MWANGIANITAWAMBUI/javascript-practice-or-cheat-code#readme",
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
