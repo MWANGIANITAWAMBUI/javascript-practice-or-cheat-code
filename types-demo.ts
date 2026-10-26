@@ -36,7 +36,7 @@ console.log(calculateTotal("twenty", 3));
 let count = 5;
 count = "five";
 
-*/
+
 //Then write these two functions from a blank file, with types on the parameters and the return value, and call each once with valid arguments:
 //formatPrice takes an amount (number) and a currency code (string), and returns something like "KES 1500".
 //sumAll takes an array of numbers and returns their total. Don't use .reduce() this time, use a loop.
@@ -46,7 +46,7 @@ function formatPrice(amount: number, currencyCode: string): string {
 }   
 
 console.log(formatPrice("KES", 1500));
-
+*/
 // the function formatPrice takes an amount and a currency code as parameters, both with their respective types defined. 
 // It returns a string that formats the price with the currency code.
 // Example call to formatPrice with valid arguments

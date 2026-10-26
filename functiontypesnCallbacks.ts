@@ -7,7 +7,7 @@
 // The result is a new array containing the transformed strings, which is then logged to the console.
 // the processArray function demonstrates the use of higher-order functions in TypeScript, where a function can accept another function as an argument and apply it to each element of an array.
 // this approach allows for flexible and reusable code, as different callback functions can be passed to processArray to achieve various transformations on the input array of strings.
-
+/*
 
 function processArray(
   items: string[],
@@ -31,3 +31,35 @@ const uppercaseWords = processArray(
 );
 
 console.log(uppercaseWords);
+
+
+
+function processArray<T, U>(
+  arr: T[],
+  callback: (item: T) => U
+): U[] {
+  const result: U[] = [];
+
+  for (const item of arr) {
+    result.push(callback(item));
+  }
+
+  return result;
+}
+
+console.log(
+  processArray(["hello", "world"], (text) => text.length)
+);
+
+console.log(
+  processArray([1, 2, 3], (n) => n * 2)
+);
+
+console.log(
+  processArray([1, 2, 3], (n) => n.toUpperCase())
+);
+
+// The last example will throw an error because the callback function is trying to call toUpperCase on a number, which is not valid.
+//  This demonstrates the importance of ensuring that the types of the input array and the callback function are compatible.
+
+*/
