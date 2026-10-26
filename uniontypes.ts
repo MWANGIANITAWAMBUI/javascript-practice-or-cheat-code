@@ -50,4 +50,3 @@ function formatId(id: number | string): string {
 }
 
 */
-console.log(lengthOf("hello"));
